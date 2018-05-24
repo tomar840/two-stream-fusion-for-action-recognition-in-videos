@@ -195,8 +195,8 @@ def train_model(spat_model, spat_criterion, spat_optimizer, spat_scheduler, temp
         print()
         
     del(spat_data)
-	del(temp_data)
-	del(labels)
+    del(temp_data)
+    del(labels)
 	
     time_elapsed = time.time() - since
     print('Training complete in {:.0f}m {:.0f}s'.format(
