@@ -1,4 +1,4 @@
-# two-stream-average-fusion-for-action-recognition-in-videos
+# two-stream-fusion-for-action-recognition-in-videos
 We have implemented convolutional two stream network for action recognition for two cases - 
   * Two stream average fusion at softmax layer.
   * Two stream fusion at convolutional layer.
