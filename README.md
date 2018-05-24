@@ -51,7 +51,7 @@ We have used vgg-19 model pre-trained on ImageNet for both the streams.
  ### 5.1 Performance for two stream average fusion 
  * For first 20 classes of UCF101 dataset
 
- network      | top1  |
+ network      | Acc.  |
 --------------|:-----:|
 Spatial cnn   | 82.1% | 
 Motion cnn    | 79.4% | 
@@ -59,7 +59,7 @@ Average fusion| 88.5% |
 
  * For all 101 classes of UCF101 dataset
 
- network      | top1  |
+ network      | Acc.  |
 --------------|:-----:|
 Spatial cnn   | 82.1% | 
 Motion cnn    | 79.4% | 
