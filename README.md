@@ -51,19 +51,19 @@ We have used vgg-19 model pre-trained on ImageNet for both the streams.
  ### 5.1 Performance for two stream average fusion 
  * For first 20 classes of UCF101 dataset
 
- Network      | Acc.  |
---------------|:-----:|
-Spatial cnn   | 82.1% | 
-Motion cnn    | 79.4% | 
-Average fusion| 88.5% |
+ Network       | Acc.   |
+---------------|:------:|
+Spatial cnn    | 91.96% | 
+Motion cnn     | 97.30% | 
+Average fusion | 99.01% |
 
  * For all 101 classes of UCF101 dataset
 
- Network      | Acc.  |
---------------|:-----:|
-Spatial cnn   | 82.1% | 
-Motion cnn    | 79.4% | 
-Average fusion| 88.5% |
+ Network       | Acc.   |
+---------------|:------:|
+Spatial cnn    | 48.64% |  
+Motion cnn     | 51.17% | 
+Average fusion | 62.13% |
 
  ### 5.2 Performance for two stream fusion at convolution layer
  * For first 20 classes of UCF101 dataset, we get an accuracy of 96.01 % 
